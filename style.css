@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -82,11 +83,77 @@ body{
       background-color: black;
     }
   }
+.cmd-input{
+	width: 100%;
+	color: #707070;
+	font-family: 'Noto Serif Ahom', serif;
+	font-size: 16px;
+	border: 0px;
+	resize: none;
+	max-height: 200px;
+}
+.cmd-form{
+	max-height: 400px;
+}
+[contentEditable=true]:empty:before {
+    content: attr(placeholder);
+    opacity: 0.6;
+  }
+.cmd-submit{
+	margin-top: 20px;
+	padding: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+	background-color: #2B2B2B;
+	color: #19E0CB;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	float: left;
+	transition: 350ms;
 
+}
+.cmd-submit:hover{
+	background-color: #4B4B4B;
+}
 
 
 
 
   .table{
-
+  	border-right: 1px solid white;
+  	color: #19E0CB;
+		font-family: 'Noto Serif Ahom', serif;
+  }
+  .table-interact{
+  	display: flex;
+  }
+  .refresh{
+  	width: 30px;
+  	margin-left: 20px;
+  	cursor: pointer;
+  	margin-top: 5px;
+  	transition: 350ms;
+  }
+  .refresh:hover{
+  	opacity: 0.5;
+  }
+  .table-title{
+  	color: #BB85FD;
+  	margin-bottom: 10px;
+  	font-size: 30px;
+  	font-family: 'Noto Serif Ahom', serif;
+  }
+  .cell{
+  	border-left: 1px solid white;
+  	border-bottom: 1px solid white;
+  	padding: 10px;
+  }
+  .column-name{
+  	padding: 6px;
+  	padding-top: 10px;
+  	border: 1px solid white;
+  	border-right: 0px;
+  	padding-left: 25px;
+  	padding-right: 25px;
   }
