@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&family=Source+Sans+Pro&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	display: flex;
+	background-color: #212121;
+	width: 100%;
+	padding: 80px;
+	box-sizing: border-box;
+}
+.content-left{
+	width: 35%;
+	margin-right: 7%;
+}
+.content-right{
+	width: 58%;
+	background-color: #272727;
+	box-sizing: border-box;
+	padding: 25px;
+}
+
+
+
+
+.title{
+	color: #BB85FD;
+	font-family: 'Roboto Slab', serif;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+.content-btn{
+	background-color: #2B2B2B;
+	padding: 15px;
+	margin-right: 10px;
+	color: #19E0CB;
+	display: inline-block;
+	cursor: pointer;
+	transition: 350ms;
+}
+.content-btn:hover{
+	background-color: #4B4B4B;
+}
+
+
+
+.cmd-display{
+	color: #707070;
+	width: 100%;
+	padding: 25px;
+	background-color: white;
+	margin-top: 50px;
+	height: 300px;
+	box-sizing: border-box;
+	padding-bottom: 50px;
+	position: relative;
+	font-family: 'Noto Serif Ahom', serif;
+	
+}
+.cmd-placeholder{
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+
+}
+.box {
+    width: 10px;
+    height: 5px;
+    background-color: red;
+    animation: box-animation 1.2s infinite;
+    transition: 0ms;
+  }
+  
+@keyframes box-animation {
+    0% {
+      background-color: white;
+    }
+    100% {
+      background-color: black;
+    }
+  }
+
+
+
+
+
+  .table{
+
+  }
